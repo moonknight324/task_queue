@@ -59,9 +59,17 @@ The Dockerfile builds the JAR and serves the console in a browser using [ttyd](h
 
 Open `http://localhost:10000` and sign in with the username and password given above. The port can be changed with the `PORT` environment variable.
 
+## Test login
+
+The hosted version asks for a login. Use these credentials:
+
+- Username: `manya`
+- Password: `manya324`
+
 ## Notes
 
 - Scan names cannot contain commas.
 - Ids must be unique.
 - A scan added after the queue has finished stays `IDLE` until the next `start`.
 - `exit` cancels any running scan.
+
