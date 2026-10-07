@@ -61,7 +61,9 @@ Open `http://localhost:10000` and sign in with the username and password given a
 
 ## Test login
 
-The hosted version asks for a login. Use these credentials:
+Live version: https://task-queue-431h.onrender.com
+
+It asks for a login. Use these credentials:
 
 - Username: `manya`
 - Password: `manya324`
@@ -72,4 +74,3 @@ The hosted version asks for a login. Use these credentials:
 - Ids must be unique.
 - A scan added after the queue has finished stays `IDLE` until the next `start`.
 - `exit` cancels any running scan.
-
